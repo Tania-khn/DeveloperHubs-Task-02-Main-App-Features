@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SocialConnect 🌐
 
 A mobile-style social feed web app built with **Next.js 16**, **TypeScript**, **Prisma** (SQLite), **Zustand**, and **shadcn/ui**. Users can create posts (text + optional image), like/unlike posts, comment, and view any user's profile by tapping on their name.
@@ -292,3 +293,6 @@ Built with the Next.js + Tailwind + shadcn/ui stack. Mock avatars from [pravatar
 5. `npx prisma generate` aur `npx prisma db push` chalayein
 6. `npm run dev` chalayein
 7. Browser me http://localhost:3000 open karein — app ready hai! 🎉
+=======
+# DeveloperHubs-Task-02-Main-App-Features
+>>>>>>> fab58450243d6432e89d0ef1f52d5a5644360ef0
