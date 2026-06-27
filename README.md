@@ -1,9 +1,8 @@
-<<<<<<< HEAD
-# SocialConnect 🌐
+# DeveloperHubs-Task-02-Main-App-Features
+
+## SocialConnect 🌐
 
 A mobile-style social feed web app built with **Next.js 16**, **TypeScript**, **Prisma** (SQLite), **Zustand**, and **shadcn/ui**. Users can create posts (text + optional image), like/unlike posts, comment, and view any user's profile by tapping on their name.
-
----
 
 ## ✨ Features
 
@@ -28,7 +27,6 @@ A mobile-style social feed web app built with **Next.js 16**, **TypeScript**, **
    - Auth state persists across page reloads (localStorage)
    - Switch between 4 mock accounts instantly from the header dropdown
 
----
 
 ## 🛠 Tech Stack
 
@@ -41,8 +39,6 @@ A mobile-style social feed web app built with **Next.js 16**, **TypeScript**, **
 | State Management | Zustand (with persist middleware) |
 | Notifications    | Sonner toasts                   |
 | Icons            | lucide-react                    |
-
----
 
 ## 📋 Prerequisites
 
@@ -234,43 +230,6 @@ npm run db:generate  # Regenerate Prisma client
 
 ---
 
-## 🚀 Deploy to Vercel (Optional)
-
-The easiest way to deploy this app:
-
-1. Push the code to GitHub (see instructions below)
-2. Go to https://vercel.com → **New Project** → import your GitHub repo
-3. Vercel auto-detects Next.js — just click **Deploy**
-4. **Important:** For Vercel, change `DATABASE_URL` to a real Postgres/MySQL connection string (SQLite doesn't persist on Vercel's serverless functions). Use Vercel Postgres, Neon, Supabase, or PlanetScale.
-
----
-
-## 📤 Upload to GitHub (Quick Version)
-
-```bash
-# 1. Initialize git
-cd social-connect
-git init
-git branch -M main
-
-# 2. Set your identity (only first time)
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
-
-# 3. Commit
-git add .
-git commit -m "feat: initial SocialConnect app"
-
-# 4. Create a new empty repo on https://github.com/new (DO NOT initialize with README)
-#    Then copy its URL and run:
-git remote add origin https://github.com/YOUR_USERNAME/social-connect.git
-git push -u origin main
-```
-
-> **Authentication:** GitHub no longer accepts passwords. Use a **Personal Access Token**:
-> GitHub → Settings → Developer settings → Personal access tokens → Generate new token (classic) → select "repo" scope → copy the token → use it as your password when pushing.
-
----
 
 ## 📝 License
 
@@ -282,17 +241,4 @@ MIT — free to use, modify, and distribute.
 
 Built with the Next.js + Tailwind + shadcn/ui stack. Mock avatars from [pravatar.cc](https://pravatar.cc), post images from [Unsplash](https://unsplash.com).
 
----
 
-**Roman Urdu quick guide:**
-
-1. ZIP file ko extract karein
-2. VS Code me `File → Open Folder` se extracted folder open karein
-3. Terminal khol kar `npm install` chalayein
-4. `cp .env.example .env` (Linux/mac) ya `copy .env.example .env` (Windows) chalayein
-5. `npx prisma generate` aur `npx prisma db push` chalayein
-6. `npm run dev` chalayein
-7. Browser me http://localhost:3000 open karein — app ready hai! 🎉
-=======
-# DeveloperHubs-Task-02-Main-App-Features
->>>>>>> fab58450243d6432e89d0ef1f52d5a5644360ef0
